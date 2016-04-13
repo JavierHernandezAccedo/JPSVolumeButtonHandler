@@ -4,7 +4,8 @@
 //
 //  Created by JP Simard on 1/31/2014.
 //  Copyright (c) 2014 JP Simard. All rights reserved.
-//
+//  Modified by Francisco Javier Hernandez on 04/13/2016
+//  VolumeHUD & volume level change reenabled
 
 #import "JPSVolumeButtonHandler.h"
 #import <AVFoundation/AVFoundation.h>
