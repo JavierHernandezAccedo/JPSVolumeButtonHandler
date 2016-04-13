@@ -33,7 +33,7 @@ static CGFloat minVolume                    = 0.00001f;
     if (self) {
         _appIsActive = YES;
         [self setupSession];
-        [self disableVolumeHUD];
+        //[self disableVolumeHUD];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidChangeActive:) name:UIApplicationWillResignActiveNotification object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidChangeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
@@ -167,7 +167,7 @@ static CGFloat minVolume                    = 0.00001f;
         }
         
         // Reset volume
-        [self setSystemVolume:self.initialVolume];
+        //[self setSystemVolume:self.initialVolume];
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
